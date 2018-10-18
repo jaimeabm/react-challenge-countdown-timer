@@ -9,8 +9,6 @@ Days  Hours  Minutes Seconds
 
 Base Requirements For All Levels
 
-
-- Show top 100 albums based on the json feed here: https://itunes.apple.com/us/rss/topalbums/limit=100/json
 - A clean modern look
 - Clean, readable, maintainable codebase
 - Source code on Github or Bitbucket
