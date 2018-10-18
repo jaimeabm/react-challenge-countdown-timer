@@ -16,7 +16,7 @@ Base Requirements For All Levels
 - Cross browser support (or graceful degradation)
 - Responsive design and implementation (DO NOT USE A CSS FRAMEWORK, JUST YOUR CSS)
 - A good user experience
-- Service hosted on [github.io](https://jaimeabm.github.io/react-challenge-countdown-timer/) (.github.io address)
+- Service hosted on [https://jaimeabm.github.io/react-challenge-countdown-timer/](https://jaimeabm.github.io/react-challenge-countdown-timer/) (.github.io address)
 -  Webpack 3.x
 -  NodeJS
 
