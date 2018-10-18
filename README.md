@@ -20,8 +20,8 @@ Base Requirements For All Levels
 -  Webpack 3.x
 -  NodeJS
 
-To run the project in your machine, just run the following command:
+To run the project in your machine, just run the following command from the main folder:
 
-'''
+`
 npm install
-'''
+`
