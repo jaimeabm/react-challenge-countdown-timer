@@ -5,6 +5,7 @@ This code challenge allows you to choose your own path and lets you flaunt your 
 In a fictional world, we need to create a simple countdown timer that looks like this:.
 
 |Days  |Hours  |Minutes |Seconds|
+
 |77    | 23    | 59     | 59    |
 
 Base Requirements For All Levels
