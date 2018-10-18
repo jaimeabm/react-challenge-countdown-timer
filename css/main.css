@@ -1,0 +1,320 @@
+/* Simple Layout defined by Jaime Banda*/
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.grid {
+    margin: 0 auto;
+    max-width: 1200px;
+    width: 100%;
+}
+
+.row {
+    width: 100%;
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+.text-center{
+    text-align: center;
+    vertical-align: middle;
+}
+
+/* Standard Styles Starts */
+
+body {
+    font: 14px/24px Lato, Arial, sans-serif;
+    color: #000;
+    background: #fff;
+}
+
+a {
+    color: #FF4433;
+}
+
+a:hover,
+a:focus {
+    color: #B21514;
+}
+
+a:focus {
+    outline: none;
+}
+
+hr {
+    border-color: #BDBDBD;
+}
+
+/* Heading Styles Starts */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Lato', sans-serif;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+h2 {
+    font-size: 48px;
+}
+
+h3 {
+    font-size: 36px;
+}
+
+h4 {
+    font-size: 30px;
+}
+
+h5 {
+    font-size: 24px;
+}
+
+h6 {
+    font-size: 18px;
+}
+
+/* Header Styles Starts */
+
+.main-header {
+    padding-top: 15px;
+    padding-bottom: 20px;
+    background-color: #FF4433;
+    color: #fff;
+}
+
+/* Top Links Styles Starts */
+
+.top-links {
+    margin-bottom: 20px;
+}
+
+.top-links li+li {
+    padding-left: 15px;
+}
+
+.top-links li a {
+    color: #fff;
+}
+
+/* Main Menu Styles Starts */
+
+.main-menu {
+    margin-bottom: 0;
+    background-color: #B21514;
+    border: solid #FF6D6B;
+    border-width: 1px 0 0 0;
+}
+
+.main-menu .navbar-collapse {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.main-menu .navbar-nav>li>a {
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #fff;
+}
+
+.main-menu .navbar-nav>li:hover>a,
+.main-menu .navbar-nav>li>a:hover,
+.main-menu .navbar-nav>li>a:focus,
+.main-menu .navbar-nav>li.active>a {
+    background-color: #ea4d35;
+}
+
+.main-menu .navbar-nav>li>a .fa {
+    margin-left: 8px;
+    font-size: 18px;
+}
+
+/* Generic Styles Starts */
+
+.parallax {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.food-menu-grid .hover-content .overlay h4 a:hover {
+    text-decoration: none;
+}
+
+.text-thin {
+    font-weight: 100;
+}
+
+.text-light {
+    font-weight: 300;
+}
+
+.text-normal {
+    font-weight: 400;
+}
+
+.text-bold {
+    font-weight: 700;
+}
+
+.text-ultra-bold {
+    font-weight: 900;
+}
+
+.main-menu {
+    -webkit-box-shadow: 0 4px 4px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: 0 4px 4px rgba(0, 0, 0, 0.4);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.4);
+}
+
+.animation,
+.animation a {
+    -webkit-transition: all 0.5s ease 0s;
+    -moz-transition: all 0.5s ease 0s;
+    transition: all 0.5s ease 0s;
+}
+
+.top-search .search-panel .btn {
+    -webkit-border-radius: 3px 0 0 3px;
+       -moz-border-radius: 3px 0 0 3px;
+            border-radius: 3px 0 0 3px;
+}
+
+/* Footer Top Styles Starts */
+
+.footer-top {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: #fff;
+    background-color: #282828;
+}
+/*  */
+
+.main-footer {
+    padding-top: 55px;
+    background-color: #181818;
+}
+            
+    .copyright {
+        padding-top: 30px;
+        padding-bottom: 20px;
+    }
+
+/*  Unordered list and inline* */
+
+.list-inline {
+    padding-left: 0;
+    margin-left: -5px;
+    list-style: none;
+}
+
+.list-unstyled {
+    padding-left: 0;
+    list-style: none;
+}
+
+.list-inline>li {
+    display: inline-block;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+/* Borrow the bootstrap styles =) */
+
+.panel-default {
+    border-color: #ddd;
+}
+
+.panel {
+    margin: 5px 5px 5px 5px;
+    padding: 5px 5px 5px 5px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 1px 1px rgba(0,0,0,.05);
+}
+
+/*List result*/
+
+.list-group{
+    margin: 5px 5px 5px 5px;
+    padding: 5px 3px 5px 3px;
+    list-style: none;
+    max-height: 600px;
+    margin-bottom: 10px;
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+    text-align: center;
+    display: inline-block;
+}
+
+.card{
+    text-align: center;
+    margin:15px auto;
+    padding:5px;
+}
+
+.card-text, .card-title{
+    overflow: hidden;
+    white-space: nowrap; /* Don't forget this one */
+    text-overflow: ellipsis;
+}
