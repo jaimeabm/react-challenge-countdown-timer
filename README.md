@@ -1,4 +1,4 @@
-# CountDown Timer Challenge - ReactJS
+# Count down timer challenge - ReactJS
 
 This code challenge allows you to choose your own path and lets you flaunt your creative panache and technical skills along the way. Get as much completed as you can, with the focus on functionality over design (AS ALWAYS, YOU ARE A DEVELOPER, NOT A DESIGNER...).
 
