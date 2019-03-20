@@ -7,7 +7,7 @@ import '../css/main.css';
 
 //WARNING: JavaScript counts months from 0 to 11.
 
-var countdownDate = new Date(2018, 11, 31, 0, 0, 0, 0).getTime()
+var countdownDate = new Date(2020, 11, 31, 0, 0, 0, 0).getTime()
 window.React = React
 render(
     <App countdownDate={countdownDate}/>,
